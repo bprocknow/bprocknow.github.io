@@ -1,0 +1,184 @@
+body{
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0px;
+}
+
+section{
+  position: relative;
+  line-height: 18pt;
+}
+
+ul{
+  text-align: left;
+}
+
+.flex{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: black;
+  height: 55px;
+  border-bottom-width: 2px;
+  border-bottom-color: blue;
+  border-bottom-style: solid;
+  z-index: 99;
+}
+
+#home{
+  line-height: 18pt;
+}
+
+.post-header{
+  padding: 0 10px;
+  height: 100vh
+}
+
+.header-back{
+  background: url(./background.jpg);
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+}
+
+.large-text{
+  z-index: 1;
+  margin-bottom: 1rem;
+  font-size: 32pt;
+  line-height: 36pt;
+}
+
+.color-text{
+  color: rgb(235, 232, 87);
+}
+
+.nav{
+  background: black;
+  bottom: 0;
+  left: 0;
+  height: 55px;
+  position: absolute;
+  width: 100%;
+  border-bottom-width: 2px;
+  border-bottom-color: blue;
+  border-bottom-style: solid;
+  z-index: 99;
+}
+
+a:hover{
+  color:green;
+}
+
+.nav-list{
+  background: none;
+  text-align: left;
+  width: 100%;
+}
+
+.page-link{
+  display: inline;
+  margin: 0 20px;
+}
+
+.container{
+  padding: 0 10px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header-text{
+  font-size: 30pt;
+  color: black;
+  text-transform:uppercase;
+  font-weight: 500;
+}
+
+.header-line{
+  background-color: black;
+  width: 210px;
+  height: 4px;
+  margin: 15px 0 60px 0;
+}
+
+.wrapper{
+  width: 100%;
+}
+
+.vert-container{
+  padding: 15px 0 15px 0;
+}
+.vert-container-large{
+  padding: 30px 0 30px 0;
+}
+.horz-container{
+  padding: 0 30px 0 30px;
+}
+
+.me-info{
+  padding: 0 70px 0 70px;
+  overflow: hidden;
+  color: black;
+}
+
+.navLink{
+  color: white;
+  font-size: 16pt;
+}
+
+.profile-img{
+  height: 250px;
+  overflow: hidden;
+  border: 5px solid black;
+}
+
+.helio-img{
+  height: 250px;
+  overflow: hidden;
+  border: 5px solid black;
+}
+
+.profile-img img{
+  margin: -10px 0 0 0;
+  object-position: 0 -10px;
+}
+
+.large-bold{
+  font-weight: 550;
+  font-size: 18pt;
+  padding: 20px 0 20px 0;
+}
+
+.row{
+  flex-direction: row;
+}
+
+.text-large{
+  font-size:18pt;
+  font-weight: 500;
+}
+
+hr{
+  clear: both;
+  display: block;
+  width: 96%;
+  background-color: black;
+  height: 1px;
+}
+
+.text-small{
+  font-size:12pt;
+}
+
+#section{
+  padding: 100px 0 0 0;
+}
