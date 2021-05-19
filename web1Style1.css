@@ -133,6 +133,7 @@ a:hover{
 .navLink{
   color: white;
   font-size: 16pt;
+  text-decoration: none;
 }
 
 .profile-img{
