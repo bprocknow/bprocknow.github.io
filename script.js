@@ -3,7 +3,8 @@ document.getElementById('startTimer').addEventListener('click', function() {
     .then(response => response.json())  // Make sure to use .json() if the response is JSON
     .then(data => {
         // Access the 'message' field from the data
-        document.getElementById('timerDisplay').innerText = data.message;
+		console.log("Hello World")
+        document.getElementById('timerDisplay').innerText = "HEllo";
     })
     .catch(error => {
         console.error('Error:', error);
@@ -20,6 +21,7 @@ document.getElementById('stopTimer').addEventListener('click', function() {
     })
     .then(response => response.json())
     .then(data => {
+		console.log("Goodbyte world")
         document.getElementById('timerDisplay').innerText = data.status;
     })
     .catch(error => {
