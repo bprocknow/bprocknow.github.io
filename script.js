@@ -33,7 +33,7 @@ document.getElementById('stopTimer').addEventListener('click', function() {
     })
     .then(response => response.json())
     .then(data => {
-		addTimeToList(data.message;
+		addTimeToList(data.message);
         document.getElementById('timerDisplay').innerText = data.status;
     })
     .catch(error => {
